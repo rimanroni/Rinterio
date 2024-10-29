@@ -20,9 +20,56 @@
         body{
             font-family: "Manrope", sans-serif;
         }
+        .container{
+            width: 1280px;
+            margin: auto;
+        }
+        .btns{
+            background-color: #ABEF5F;
+            color: white;
+        }
      </style>
 </head>
 <body>
-    
+    <!-- header -->
+     <header>
+        <nav class="container py-4 px-4 flex items-center justify-between ">
+           <div class="flex items-center gap-x-2">
+             <button class="btns text-black  w-[40px] h-[30px ] p-2 rounded-full"><i class="fa-solid -rotate-45 fa-arrow-right-long"></i></button>
+             <h1 class="text-xl font-bold md:text-3xl">Rinterio</h1>
+           </div>
+           <ul class="hidden md:flex items-center gap-x-4">
+            <li class="font-bold">Home</li>
+            <li>Services</li>
+            <li>Portfolio</li>
+            <li>Blogs</li>
+            <li>Contact Us</li>
+           </ul>
+           <div class="hidden md:flex gap-x-3">
+            <button class="w-[40px] h-[40px] bg-white shadow-lg rounded-full text-black"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="w-[40px] h-[40px] bg-white shadow-lg rounded-full text-black"><i class="fa-solid fa-cart-shopping"></i></button>
+
+            <button class="btns font-semibold space-x-3 p-3 text-black rounded-xl">Book Consult <span class=" w-[60px] h-[30px ] px-2 py-1  bg-black   text-white rounded-full"><i class="fa-solid -rotate-45 fa-arrow-right-long"></i></span></button>
+           </div>
+           <div class="lg:hidden text-2xl block">
+            <i class="fa-solid fa-bars"></i>
+           </div>
+        </nav>
+        <!-- Banner  -->
+         <section class="container px-4 my-4 flex justify-center">
+                <div class="text-center  space-y-4">
+                    <img src="assets/banner.png" class="mx-auto" alt="">
+                    <h1 class="text-2xl font-black lg:text-5xl">A barn house of this design has a <br> striking appearance</h1>
+                    <p class="text-[#494949] ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br class="lg:block hidden">  accents, and large windows that flood the space with natural light.</p>
+                    <button class="bg-[#D4F7AE] font-bold px-4 py-1 rounded-md">View Details <span class="bg-[#ABEF5F]   w-[40px] h-[30px ] p-2 rounded-full    inline-block"><i class="fa-solid -rotate-45 fa-arrow-right-long"></i></span></button>
+                </div>
+         </section>
+     </header>
+     <!-- main part -->
+      <main></main>
+      <!-- footer  -->
+       <footer>
+
+       </footer>
 </body>
 </html>
